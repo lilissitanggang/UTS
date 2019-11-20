@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="16dp">
+ 
+    
+    <Button
+        android:id="@+id/aritmetika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff0000"
+        android:text="Aritmatika Dasar"/>
+    
+    <Button 
+        android:id="@+id/bangundatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bangun Datar"
+        android:textColor="#ffff0000"
+        android:layout_below="@+id/aritmetika"/>
+
+    <Button 
+        android:id="@+id/barisderet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baris Dan Deret"
+        android:textColor="#ffff0000"
+        android:layout_below="@+id/bangundatar"/>
+</RelativeLayout>

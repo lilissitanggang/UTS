@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:padding="16dp">
+    
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Apkah kamu kuliah di UNPRI?"
+       	android:textColor="#ffff0000"
+       	android:textStyle="normal"/>
+    
+ 
+    <CheckBox
+        android:id="@+id/cbox1" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Ya"
+       	android:layout_below="@+id/Text1"/>
+    
+    <CheckBox
+        android:id="@+id/cbox2" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Tidak"
+       	android:layout_below="@+id/cbox1"/>
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbox2"
+        android:text="Lihat" />
+    
+    
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Hasilnya disini.."
+       	android:textStyle="normal"
+       	android:layout_below="@+id/Button1" />
+
+    
+    
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Apakah kamu FTIK?"
+       	android:textStyle="normal"
+       	android:layout_below="@+id/Text2"
+       	android:textColor="#ffff0000"
+       	android:layout_marginTop="8dp"/>
+    
+    <CheckBox
+        android:id="@+id/cbox3" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Ya"
+       	android:layout_below="@+id/Text3"/>
+
+    <CheckBox
+        android:id="@+id/cbox4" 
+        android:layout_width="wrap_content"
+       	android:layout_height="wrap_content"
+       	android:text="Tidak"
+       	android:layout_below="@+id/cbox3"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbox4"
+        android:text="Lihat" />
+    
+    
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="match_parent"
+       	android:layout_height="wrap_content"
+       	android:text="Hasilnya disini.."
+       	android:textStyle="normal"
+       	android:layout_below="@+id/button2" />
+    
+</RelativeLayout>
